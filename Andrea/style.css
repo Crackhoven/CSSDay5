@@ -1,0 +1,209 @@
+.navigationbar {
+  background-color: #8E806A;
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navigationbar .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin: 15px 0 0 0 15px;
+}
+
+.navigationbar .seek_logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 40px;
+}
+
+.navigationbar .btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.navigationbar .btn :hover {
+  background-color: orange;
+}
+
+.navigationbar .signup {
+  background-color: #FFFBE9;
+  font-weight: bold;
+  border-radius: 5%;
+  text-align: center;
+}
+
+.navigationbar .login {
+  background-color: #FFFBE9;
+  font-weight: bold;
+  border-radius: 5%;
+  text-align: center;
+}
+
+.navigationbar .search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-preferred-size: 40%;
+      flex-basis: 40%;
+  height: 30px;
+  border-radius: 5%;
+}
+
+body {
+  background-color: #D0CAB2;
+  margin: 0;
+}
+
+.cart {
+  background-color: #FFFBE9;
+  font-weight: bold;
+  border-radius: 5%;
+  text-align: center;
+}
+
+.grid-items {
+  display: -ms-grid;
+  display: grid;
+  gap: 5px;
+  width: 80%;
+  height: 400px;
+}
+
+.card1 {
+  display: -ms-grid;
+  display: grid;
+  background-color: white;
+  width: 350px;
+  height: 350px;
+  border-radius: 5%;
+}
+
+.card2 {
+  display: -ms-grid;
+  display: grid;
+  background-color: white;
+  width: 350px;
+  height: 350px;
+  border-radius: 5%;
+}
+
+.card3 {
+  display: -ms-grid;
+  display: grid;
+  background-color: white;
+  width: 350px;
+  height: 350px;
+  border-radius: 5%;
+}
+
+.card4 {
+  display: -ms-grid;
+  display: grid;
+  background-color: white;
+  width: 350px;
+  height: 350px;
+  border-radius: 5%;
+}
+
+.seemore {
+  padding: 15px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+.seemore:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  color: orange;
+}
+
+.images {
+  gap: 10px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  height: 100%;
+}
+
+.images img {
+  width: 100%;
+  border-radius: 5%;
+  height: 120px;
+}
+
+.offers {
+  font-size: medium;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: bold;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 20px;
+}
+
+.contact_list {
+  float: center;
+  list-style-type: none;
+  color: white;
+}
+
+.contact_design {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+
+.contact_list:hover {
+  background-color: orange;
+}
+
+footer {
+  background-color: #8E806A;
+  position: absolute;
+  bottom: -10%;
+  width: 100%;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
