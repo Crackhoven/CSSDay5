@@ -1,9 +1,10 @@
 @import 'style';
 .navigationbar {
-    //  background-color: $bg-color;
+    /*background-color: $bg-color;*/
     background-color: #8E806A;
     height: 80px;
     display: flex;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
     .logo {
@@ -81,6 +82,7 @@ body {
 }
 
 .card3 {
+    /*background-color: $bg-color;*/
     display: grid;
     background-color: white;
     width: 350px;
@@ -130,9 +132,10 @@ body {
 }
 
 .container {
-    display: flex;
-    justify-content: space-around;
-    margin: 20px;
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
 }
 
 .contact_list {
@@ -153,10 +156,24 @@ body {
 
 footer {
     background-color: #8E806A;
-    position: absolute;
+    position: relative;
     bottom: -10%;
     width: 100%;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
+}
+
+@media screen and (min-width: 601px) and (max-width:1200px) {
+    .container {
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width:600px) {
+    .container {
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
